@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<img src="img/captainamerica.png" id="captainamerica">
+    <img src="img/ironman.png" id="ironman">
+    <div class="everything">
+        <div class="header">
+            <h1>Marvel</h1>
+        </div>
+        <br>
+        <div class="contener">
+            <h2 class="display-4">@ViewData["Mensaje"] </h2>
+
+        <form method="post">
+         <h2>Tu Nombre: </h2>
+        <input asp-for="Nombre"/>
+        <h2>Mes de nacimiento: </h2>
+        <input asp-for="Mes"/>
+
+        <input type="submit" value="Conoce"/>
+    </form>
+        </div>
+
+        
+        
+
+    </div>
+
