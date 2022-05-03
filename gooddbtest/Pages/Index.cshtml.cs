@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Text;
+
 
 namespace gooddbtest.Pages
 {
@@ -25,6 +27,7 @@ namespace gooddbtest.Pages
 
         public void OnPost()
         {
+
             ViewData["Mensaje"] = "Tu Nombre de heroe es: " + Nombre;
         }
     }
