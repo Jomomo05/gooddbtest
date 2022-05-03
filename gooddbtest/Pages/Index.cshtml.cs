@@ -14,7 +14,7 @@ namespace gooddbtest.Pages
 
         [BindProperty]
         public string Nombre { get; set; }
-        public int Mes { get; set; }
+        public string Mes { get; set; }
 
         public void OnGet()
         {
