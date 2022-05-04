@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<!-- Hecho por Jose Miguel Beltran Cinco A00227714 --!>
 
 <img src="img/captainamerica.png" id="captainamerica">
     <img src="img/ironman.png" id="ironman">
@@ -16,9 +17,9 @@
 
         <form method="post">
          <h2>Tu Nombre: </h2>
-        <input asp-for="Nombre"/>
-        <h2>Mes de nacimiento: </h2>
-        <input asp-for="Mes"/>
+        <input asp-for="Nombre" class="nombre"/>
+        <h2>Mes de nacimiento (En espanol y en letra): </h2>
+        <input asp-for="Mes" class="mes"/>
 
         <input type="submit" value="Conoce"/>
     </form>
